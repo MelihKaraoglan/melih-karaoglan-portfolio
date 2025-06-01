@@ -435,7 +435,7 @@ body {
 
 /* Dark mode için uyumlu görünüm zaten sağlanmış gibi, ama dilersen biraz açabilirim */
 .dark-mode .footer {
-  background-color: #1e1e1e;
+  background-color: #181818;
   color: #e5e7eb;
 }
 
