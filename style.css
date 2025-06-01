@@ -435,7 +435,7 @@ body {
 
 /* Dark mode için uyumlu görünüm zaten sağlanmış gibi, ama dilersen biraz açabilirim */
 .dark-mode .footer {
-  background-color: #181818;
+  background-color: #1e1e1e ;
   color: #e5e7eb;
 }
 
@@ -453,4 +453,8 @@ body {
 
 .dark-mode .section h2 {
   color: #f0f0f0;
+}
+
+.dark-mode .contact {
+  background-color: #181818;
 }
