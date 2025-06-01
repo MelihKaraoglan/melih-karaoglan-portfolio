@@ -180,7 +180,7 @@ body {
   border-radius: 6px;
   font-weight: 500;
   color: #1f2937;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
 }
 
@@ -238,6 +238,7 @@ body {
     margin: 0 20px;
   }
 }
+
 .contact-items {
   display: flex;
   flex-direction: column;
@@ -385,9 +386,11 @@ body {
 .dark-mode .project-card p {
   color: #d1d5db;
 }
+
 .dark-mode .projects {
   background-color: #181818;
 }
+
 .dark-mode .hero h2 {
   color: #f0f0f0;
 }
@@ -395,6 +398,7 @@ body {
 .dark-mode .hero p {
   color: #d1d5db;
 }
+
 .dark-mode .project-card h3 {
   color: #f0f0f0;
 }
@@ -417,4 +421,36 @@ body {
 
 .navbar button#dark-mode-toggle:hover {
   color: #2563eb;
+}
+
+/* === Footer === */
+.footer {
+  background-color: #2b3a54;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode için uyumlu görünüm zaten sağlanmış gibi, ama dilersen biraz açabilirim */
+.dark-mode .footer {
+  background-color: #1e1e1e;
+  color: #e5e7eb;
+}
+
+/* === Genel Section Ayarları === */
+.section {
+  padding: 80px 20px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+.dark-mode .section h2 {
+  color: #f0f0f0;
 }
